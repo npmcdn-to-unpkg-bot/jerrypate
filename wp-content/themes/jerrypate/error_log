@@ -1,0 +1,2 @@
+[22-May-2015 14:11:31 America/Denver] PHP Fatal error:  Call to undefined function bloginfo() in /home1/ebgaines/public_html/belfortagency/demo/qga/wp-content/themes/qga/partials/header.php on line 11
+[22-May-2015 15:31:01 America/Denver] PHP Fatal error:  Call to undefined function bloginfo() in /home1/ebgaines/public_html/belfortagency/demo/qga/wp-content/themes/qga/partials/header.php on line 11

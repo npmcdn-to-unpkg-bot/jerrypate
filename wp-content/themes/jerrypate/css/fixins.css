@@ -1,0 +1,28 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  html body .full-header #header-wrap #logo {
+    line-height: 100px;
+    height: 100px;
+  }
+  html body .full-header #header-wrap #logo img {
+    height: auto !important;
+    width: 200px !important;
+    display: inline-block;
+  }
+  html body .full-header.sticky-header #header-wrap #logo {
+    line-height: 60px;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+  }
+  html body .full-header.sticky-header #header-wrap #logo img {
+    height: auto !important;
+    width: 200px !important;
+    margin-top: 0px !important;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+  }
+}
+
