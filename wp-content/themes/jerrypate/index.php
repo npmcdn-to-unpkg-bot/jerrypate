@@ -46,7 +46,6 @@
             </div>
 
          <script>
-         console.log('change');
                 jQuery(document).ready(function($){
                     var swiperSlider = new Swiper('.swiper-parent',{
                         paginationClickable: false,
