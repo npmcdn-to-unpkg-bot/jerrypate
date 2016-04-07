@@ -1,87 +1,68 @@
 <?php 
 
 /* 
-Template Name: News
+Template Name: Testimonials
 */
 
 
 include('partials/header-pages.php'); ?>
 
-<!-- Page Title
-        ============================================= -->
-        <section id="page-title">
 
-            <div class="container clearfix">
-                <h1>News</h1>
-                <span>Our Latest News</span>
-            </div>
 
-        </section><!-- #page-title end -->
 
   <!-- Content
         ============================================= -->
-        <section id="content">
 
-            <div class="content-wrap">
-
+            <div class="section parallax dark nobottommargin notopmargin" style="background-image: url('<?php echo bloginfo('template_url'); ?>/images/golfcourse1.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+                <div class="heading-block center">
+                    <h3>Hear from our clients</h3>
+                </div>
                 <div class="container clearfix">
-
+                    <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+                        <div class="flexslider">
+                             <div class="slider-wrap">
                     <!-- Posts
                     ============================================= -->
 
-                        <div id="posts" class="small-thumbs">
+                        <?php 
+        
+                        $args = array( 'posts_per_page' => -1 );
 
-                                        <?php 
+                        $wp_query = new WP_Query($args);
+
+                        ?>
                         
-                                        $args = array( 'posts_per_page' => -1 );
+                        <?php if ($wp_query->have_posts()): while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-                                        $wp_query = new WP_Query($args);
-
-                                        ?>
-                                        
-                                        <?php if ($wp_query->have_posts()): while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-
-                                            <!-- article -->
-                                            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                                                <div class="entry clearfix">
-                                                    <div class="entry-image">
+                            <!-- article -->
+                            
+                                
+                                             <div class="slide">
+                                                <div class="testi-image">
                                                     <?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-                                                        
-                                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> by <?php the_author_meta('first_name'); ?>">
-                                                                <?php the_post_thumbnail('large'); // Fullsize image for the single post ?>
-                                                                </a>
-                                                                <?php endif; ?>
-                                                    </div>
-                                                    <div class="entry-c">
-                                                        <div class="entry-title">
-                                                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                                                        </div>
-                                                        <ul class="entry-meta clearfix">
-                                                            <li><i class="icon-calendar3"></i><?php the_date(); ?></li>
-                                                        </ul>
-                                                        <div class="entry-content">
-                                                            <p><?php the_excerpt(); ?></p>
-                                                            <a href="<?php the_permalink(); ?>"class="more-link">Read More</a>
-                                                        </div>
+                                                        <?php the_post_thumbnail('large'); // Fullsize image for the single post ?>
+                                                    <?php endif; ?>
+                                                </div>
+                                                <div class="testi-content">
+                                                        <p><?php echo get_the_excerpt(); ?></p>
+                                                    <div class="testi-meta">
+                                                        <?php the_title(); ?>
+                                                        <span><?php echo get_field('position',$post_id); ?></span>
                                                     </div>
                                                 </div>
-                                            
-                                            </article>
-                                            <!-- /article -->
+                                            </div>
+                                        
+                            
+                            <!-- /article -->
 
-                                        <?php endwhile; ?>
+                        <?php endwhile; ?>
 
-                                        <?php else: ?>
+                        <?php else: ?>
 
-                                        <?php endif; ?>
-
-                            </div><!-- #posts end -->
-
+                        <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
-        </section><!-- #content end -->
-
-        
 <?php include('partials/footer.php'); ?>

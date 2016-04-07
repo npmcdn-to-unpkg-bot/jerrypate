@@ -9313,7 +9313,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .testimonial.testimonial-full { padding: 30px; }
 
-.testimonial.testimonial-full[data-animation="fade"] { padding: 30px; }
+.testimonial.testimonial-full[data-animation="fade"] { padding: 30px; margin: 0px 0px 100px 0px;}
 
 .testimonial.testimonial-full[data-animation="fade"] .flexslider { overflow: visible !important; }
 

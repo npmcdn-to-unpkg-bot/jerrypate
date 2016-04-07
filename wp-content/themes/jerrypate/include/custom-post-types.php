@@ -29,7 +29,7 @@ register_post_type( 'projects',
         'has_archive'           => true,
         'hierarchical'          => false,
         'menu_position'         => null,
-        'menu_icon'             => 'dashicons-admin-home',
+        'menu_icon'             => 'dashicons-palmtree',
         'supports'              => array( 'title','content','thumbnail' ),
         'taxonomies'            => array('category',)
     )
