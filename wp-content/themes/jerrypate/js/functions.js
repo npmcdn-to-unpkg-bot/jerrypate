@@ -2147,7 +2147,10 @@ var SEMICOLON = SEMICOLON || {};
 		windowscroll: function(){
 
 			var headerOffset = $header.offset().top;
-			var headerWrapOffset = $headerWrap.offset().top;
+			if ($('#header-wrap').length) {
+				var headerWrapOffset = $headerWrap.offset().top;
+			}
+			
 
 			var headerDefinedOffset = $header.attr('data-sticky-offset');
 			if( typeof headerDefinedOffset !== 'undefined' ) {

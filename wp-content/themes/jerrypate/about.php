@@ -11,8 +11,8 @@ include('partials/header-pages.php'); ?>
         <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php echo bloginfo('template_url'); ?>/images/golfCourse.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
 
             <div class="container clearfix">
-                <h1>We create beauty on the outside</h1>
-                <span>for people to live better on the inside.</span>
+                <h1>Creating beauty on the outside,</h1>
+                <span>to live better on the inside</span>
             </div>
 
         </section><!-- #page-title end -->

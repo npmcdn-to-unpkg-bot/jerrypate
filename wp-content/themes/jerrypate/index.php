@@ -1,51 +1,57 @@
 
         <?php include('partials/header.php'); ?>
 
+ <section id="page-title" class="page-title-parallax page-title-dark force-full-screen full-screen dark" style="padding: 250px 0; background-image: url('<?php echo bloginfo('template_url'); ?>/images/fullcourse.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
+    <div style="background: #000; opacity: .4; width: 100%; height: 100%; top: 0px; left: 0px; right: 0px; bottom: 0px; position:absolute; z-index: 0;"></div>
+            <div class="container clearfix" style="position: relative; z-index: 2;">
+                <h1 data-animate="fadeInUp" data-delay="400">Creating beauty on the outside,</h1>
+                <span data-animate="fadeInUp" data-delay="600" >to live better on the inside</span>
+            </div>
+
+        </section><!-- #page-title end -->
+<!-- 
         <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
 
             <div class="swiper-container swiper-parent">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/redeemer.jpg');">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
-                            </div>
+                            <div class="heading-block nobottommargin center">
+                                    <h2 data-caption-animate="fadeInUp">Creating beauty on the outside,</h2>
+                                    <p data-caption-animate="fadeInUp" data-caption-delay="200">to live better on the inside</p>
+                                </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/church3.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">St. Sylvester Catholic Church</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/building.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Global Learning Academy Elementary School</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/beach.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Sanders Beach</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/fire.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Pensacola Beach Fire Station</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
                 <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
-            </div>
+            </div> -->
 
-         <script>
+  <!--        <script>
                 jQuery(document).ready(function($){
                     var swiperSlider = new Swiper('.swiper-parent',{
                         paginationClickable: false,
@@ -145,7 +151,7 @@
             </script>
 
         </section>
-
+ -->
      
 
     <!-- Footer Scripts
