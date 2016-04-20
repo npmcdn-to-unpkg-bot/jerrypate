@@ -39,7 +39,7 @@ include('partials/header-pages.php'); ?>
 
         $panels = new WP_Query($args);
 
-        echo '<div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">';
+        echo '<div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full portfolio-masonry mixed-masonry grid-container clearfix">';
 
 
         if ($panels->have_posts()) {
@@ -60,12 +60,11 @@ include('partials/header-pages.php'); ?>
                             <a href="<?php echo get_the_permalink(); ?>">
                                 <img src="<?php echo $url ?>">
                             </a>
-                             <div class="portfolio-overlay">
-                                 <a href="<?php echo get_the_permalink(); ?>" class="left-icon"><i class="icon-line-plus"></i></a>
-                            </div>
                         </div>
+                        <div class="portfolio-overlay">
                         <div class="portfolio-desc">
                             <h3><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
+                        </div>
                         </div>
                     </article>
 

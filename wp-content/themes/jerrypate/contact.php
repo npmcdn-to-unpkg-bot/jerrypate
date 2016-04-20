@@ -9,7 +9,7 @@ include('partials/header-pages.php'); ?>
 
   <!-- Page Title
         ============================================= -->
-        <section id="page-title">
+        <section id="page-title" class="page-title-mini">
 
             <div class="container clearfix">
                 <h1>Contact</h1>
@@ -52,7 +52,7 @@ include('partials/header-pages.php'); ?>
 
 									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:+18007007001"> (800) 700-7001</a><br>
 									<!-- <abbr title="Fax"><strong>Hours:</strong></abbr>  M-F 8am-5pm<br> -->
-									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:qg@qgarchitects.com"> qg@qgarchitects.com</a>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:jdp@jerrypate.com"> jdp@jerrypate.com</a>
 								</div>
 								</div>
 							</div>

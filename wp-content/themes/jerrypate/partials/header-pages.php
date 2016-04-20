@@ -9,7 +9,7 @@
     
     <!-- Stylesheets
     ============================================= -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Merriweather:700italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/dark.css" type="text/css" />
@@ -55,8 +55,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo" class="interior">
-                        <a href="<?php echo site_url(); ?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/jerry_logo.svg"><img src="<?php bloginfo('template_url'); ?>/images/jerry_logo.svg" alt="Canvas Logo"></a>
-                        <a href="<?php echo site_url(); ?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/color.svg"><img src="<?php bloginfo('template_url'); ?>/images/jerry_logo.svg" alt="Canvas Logo"></a>
+                        <a href="<?php echo site_url(); ?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/jerry_logo_color.svg"><img src="<?php bloginfo('template_url'); ?>/images/jerry_logo_color.svg" alt="Canvas Logo"></a>
+                        <a href="<?php echo site_url(); ?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/jerry_logo_color.svg"><img src="<?php bloginfo('template_url'); ?>/images/jerry_logo_color.svg" alt="Canvas Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation

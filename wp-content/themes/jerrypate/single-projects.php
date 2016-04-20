@@ -53,7 +53,7 @@ if (have_posts()): while (have_posts()) : the_post();
             <script>
                 jQuery(document).ready(function($){
 
-                var spv = 2; 
+                var spv = 1; 
 
                 if ($(window).width()<800) spv=1; 
 
@@ -65,7 +65,7 @@ if (have_posts()): while (have_posts()) : the_post();
                             
                             $(window).resize(function(){ 
                                 if ($(window).width()<800) {swiperSlider.params.slidesPerView = 1;} 
-                                    else { swiperSlider.params.slidesPerView = 2; } 
+                                    else { swiperSlider.params.slidesPerView = 1; } 
                                 });
                             $('#slider .swiper-slide').each(function(){
                                 if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
@@ -108,7 +108,7 @@ if (have_posts()): while (have_posts()) : the_post();
 
                         <!-- Portfolio Single - Meta
                         ============================================= -->
-                        <div class="panel panel-default events-meta">
+                     <!--    <div class="panel panel-default events-meta">
                             <div class="panel-body">
                                 <ul class="portfolio-meta nobottommargin">
                                     <li><span><i class="icon-location"></i>Location:</span><?php echo get_field('location',$post_id); ?></li>
@@ -116,14 +116,14 @@ if (have_posts()): while (have_posts()) : the_post();
                                     <li><span><i class="icon-dollar"></i>Cost:</span><?php echo get_field('cost',$post_id); ?></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Portfolio Single - Meta End -->
 
                     </div>
 
                     <!-- Portfolio Single Content
                     ============================================= -->
-                    <div class="col_two_third portfolio-single-content col_last nobottommargin">
+                    <div class="col_two_third portfolio-single-content nobottommargin">
 
                         <!-- Portfolio Single - Description
                         ============================================= -->

@@ -21,17 +21,17 @@
                     </div>
                         <div class="fright clearfix">
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+                            <a href="#" class="social-icon si-small si-rounded nobottommargin si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
 
-                        <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+                        <a href="#" class="social-icon si-small si-rounded nobottommargin si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
                             </a>
 
-                           <a href="#" class="social-icon si-small si-borderless nobottommargin si-instagram">
+                           <a href="#" class="social-icon si-small si-rounded nobottommargin si-instagram">
                                 <i class="icon-instagram"></i>
                                 <i class="icon-instagram"></i>
                             </a>

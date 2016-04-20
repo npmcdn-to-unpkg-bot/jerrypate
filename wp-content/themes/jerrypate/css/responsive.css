@@ -1831,7 +1831,7 @@
 	}
 	html body header .mobile-logo {
 		position: absolute; 
-		top: 30px;
+		top: 15px;
 		left: 0px;
 		width: 100%;
 		text-align: center;
@@ -1843,8 +1843,9 @@
 		display: block;
 	}
 	html body header .mobile-show img {
-		width: 50% !important;
+		width: 30% !important;
 		margin-left: 30px;
+		padding-bottom: 30px;
 	}
 }
 
@@ -1866,8 +1867,8 @@
 		display: block;
 	}
 	html body header .mobile-show img {
-		width: 70% !important;
-		margin-left: 30px;
+		width: 50% !important;
+		// margin-left: 30px;
 	}
 }
 
