@@ -104,22 +104,7 @@ if (have_posts()): while (have_posts()) : the_post();
 
                 <div class="container clearfix">
 
-                    <div class="col_one_third nobottommargin">
-
-                        <!-- Portfolio Single - Meta
-                        ============================================= -->
-                     <!--    <div class="panel panel-default events-meta">
-                            <div class="panel-body">
-                                <ul class="portfolio-meta nobottommargin">
-                                    <li><span><i class="icon-location"></i>Location:</span><?php echo get_field('location',$post_id); ?></li>
-                                    <li><span><i class="icon-th"></i>Size:</span><?php echo get_field('size',$post_id); ?></li>
-                                    <li><span><i class="icon-dollar"></i>Cost:</span><?php echo get_field('cost',$post_id); ?></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <!-- Portfolio Single - Meta End -->
-
-                    </div>
+                   
 
                     <!-- Portfolio Single Content
                     ============================================= -->
@@ -136,6 +121,23 @@ if (have_posts()): while (have_posts()) : the_post();
                         <!-- Portfolio Single - Description End -->
 
                     </div><!-- .portfolio-single-content end -->
+
+                     <div class="col_one_third col_last nobottommargin">
+
+                        <!-- Portfolio Single - Meta
+                        ============================================= -->
+                        <div class="panel panel-default events-meta">
+                            <div class="panel-body">
+                                <ul class="portfolio-meta nobottommargin">
+                                    <li><span><i class="icon-location"></i>Location:</span><?php echo get_field('location',$post_id); ?></li>
+                                    <li><span><i class="icon-th"></i>Size:</span><?php echo get_field('size',$post_id); ?></li>
+                                    <li><span><i class="icon-dollar"></i>Cost:</span><?php echo get_field('cost',$post_id); ?></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Portfolio Single - Meta End -->
+
+                    </div>
 
                     <div class="clear"></div>
 
