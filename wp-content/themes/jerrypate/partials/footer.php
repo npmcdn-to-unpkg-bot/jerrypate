@@ -21,17 +21,17 @@
                     </div>
                         <div class="fright clearfix">
 
-                            <a href="#" class="social-icon si-small si-rounded nobottommargin si-facebook">
+                            <a href="https://www.facebook.com/Jerry-Pate-Company-326740044202903/" target="_blank" class="social-icon si-small si-rounded nobottommargin si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
 
-                        <a href="#" class="social-icon si-small si-rounded nobottommargin si-twitter">
+                        <a href="#" target="_blank" class="social-icon si-small si-rounded nobottommargin si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
                             </a>
 
-                           <a href="#" class="social-icon si-small si-rounded nobottommargin si-instagram">
+                           <a href="https://www.instagram.com/jerrypatedesign/" target="_blank" class="social-icon si-small si-rounded nobottommargin si-instagram">
                                 <i class="icon-instagram"></i>
                                 <i class="icon-instagram"></i>
                             </a>

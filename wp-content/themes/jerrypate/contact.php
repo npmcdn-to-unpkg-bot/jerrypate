@@ -28,12 +28,12 @@ include('partials/header-pages.php'); ?>
 
 <div id="section-contact" class="page-section notoppadding">
 	<div class="container clearfix">
-					<div class="row noleftmargin norightmargin  common-height">
+					<div class="row noleftmargin norightmargin bottommargin common-height">
 						<div class="col-md-8 col-sm-6">
 							<img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/alabama.jpg">
 						</div>
 						<div class="col-md-4 col-sm-6" style="background-color: #fff;">
-							<div class="col-padding max-height">
+							<div class="max-height">
 								<h3 class="font-body t400 ls1">Locations</h3>
 
 								<div class="responsive-center">
