@@ -34,6 +34,41 @@ register_post_type( 'projects',
         'taxonomies'            => array('category',)
     )
 );
+
+register_post_type( 'services',
+    array(
+        'labels' => array(
+            'name'                  => 'Services',
+            'singular_name'         => 'Service',
+            'add_new'               => 'Add New',
+            'add_new_item'          => 'Add New Service',
+            'edit_item'             => 'Edit Service',
+            'new_item'              => 'New Service',
+            'all_items'             => 'All Services',
+            'view_item'             => 'View Service',
+            'search_items'          => 'Search Services',
+            'not_found'             => 'No channels found',
+            'not_found_in_trash'    => 'No channels found in trash',
+            'parent_item_colon'     => '',
+            'menu_name'             => 'Services'
+        ),
+        'public'                => true,
+        'publicly_queryable'    => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'query_var'             => true,
+        'rewrite'               => true,
+        'capability_type'       => 'post',
+        'has_archive'           => true,
+        'hierarchical'          => false,
+        'menu_position'         => null,
+        'menu_icon'             => 'dashicons-hammer',
+        'supports'              => array( 'title','content','thumbnail' ),
+        'taxonomies'            => array('category',)
+    )
+);
+
 }
+
 
 ?>

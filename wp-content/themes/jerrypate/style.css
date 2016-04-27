@@ -178,6 +178,11 @@ small { font-family: 'lato', sans-serif; }
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.thin {
+	font-weight: 300;
+	font-size: 22px;
+}
+
 .line,
 .double-line {
 	clear: both;
