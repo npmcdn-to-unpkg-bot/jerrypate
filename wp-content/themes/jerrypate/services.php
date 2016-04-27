@@ -63,7 +63,7 @@ include('partials/header-pages.php'); ?>
 
                                         <div class="col_three_fifth nobottommargin col_last">
                                             <div class="heading-block nobottommargin">
-                                                <h2><a href="<?php echo $url ?>"><?php echo $title ?></a></h2>
+                                                <h2 class="uppercase"><a href="<?php echo $url ?>"><?php echo $title ?></a></h2>
                                             </div>
                                             <?php echo $content; ?>
 

@@ -68,6 +68,39 @@ register_post_type( 'services',
     )
 );
 
+register_post_type( 'Members',
+    array(
+        'labels' => array(
+            'name'                  => 'Members',
+            'singular_name'         => 'Members',
+            'add_new'               => 'Add New',
+            'add_new_item'          => 'Add New Member',
+            'edit_item'             => 'Edit Member',
+            'new_item'              => 'New Member',
+            'all_items'             => 'All Members',
+            'view_item'             => 'View Member',
+            'search_items'          => 'Search Members',
+            'not_found'             => 'No channels found',
+            'not_found_in_trash'    => 'No channels found in trash',
+            'parent_item_colon'     => '',
+            'menu_name'             => 'Members'
+        ),
+        'public'                => true,
+        'publicly_queryable'    => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'query_var'             => true,
+        'rewrite'               => true,
+        'capability_type'       => 'post',
+        'has_archive'           => true,
+        'hierarchical'          => false,
+        'menu_position'         => null,
+        'menu_icon'             => 'dashicons-admin-users',
+        'supports'              => array( 'title','content','thumbnail' ),
+        'taxonomies'            => array('category',)
+    )
+);
+
 }
 
 
