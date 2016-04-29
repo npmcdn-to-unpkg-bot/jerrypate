@@ -130,7 +130,7 @@ if (have_posts()): while (have_posts()) : the_post();
                             <div class="panel-body">
                                 <ul class="portfolio-meta nobottommargin">
                                     <li><span><i class="icon-location"></i>Location:</span><?php echo get_field('location',$post_id); ?></li>
-                                    <li><span><i class="icon-th"></i>Size:</span><?php echo get_field('size',$post_id); ?></li>
+                                    <li><span><i class="icon-th"></i>Type:</span><?php echo get_field('type',$post_id); ?></li>
                                     <li><span><i class="icon-dollar"></i>Cost:</span><?php echo get_field('cost',$post_id); ?></li>
                                 </ul>
                             </div>
