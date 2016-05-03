@@ -13,8 +13,9 @@ include('partials/header-pages.php'); ?>
   <!-- Content
         ============================================= -->
 
-            <div class="section parallax dark nobottommargin notopmargin" style="background-image: url('<?php echo bloginfo('template_url'); ?>/images/golfcourse1.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
-                <div class="heading-block center">
+            <div class="section parallax dark nobottommargin notopmargin" style="background-image: url('<?php echo bloginfo('template_url'); ?>/images/testimonial.jpg'); padding: 100px 0; background-size: cover; background-position: top top;" data-stellar-background-ratio="0.4">
+                <div style="background: #000; opacity: .4; width: 100%; height: 100%; top: 0px; left: 0px; right: 0px; bottom: 0px; position:absolute; z-index: 0;"></div>
+                <div class="heading-block center relative">
                     <h3>Hear from our clients</h3>
                 </div>
                 <div class="container clearfix">

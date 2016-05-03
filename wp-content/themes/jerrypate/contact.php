@@ -30,7 +30,7 @@ include('partials/header-pages.php'); ?>
 	<div class="container clearfix">
 					<div class="row noleftmargin norightmargin bottommargin common-height">
 						<div class="col-md-8 col-sm-6">
-							<img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/alabama.jpg">
+							<img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/contact.jpg">
 						</div>
 						<div class="col-md-4 col-sm-6" style="background-color: #fff;">
 							<div class="max-height">

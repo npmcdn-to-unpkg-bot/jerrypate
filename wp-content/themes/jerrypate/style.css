@@ -159,6 +159,8 @@ small { font-family: 'lato', sans-serif; }
 
 .fnone { float: none !important; }
 
+.relative {position: relative;}
+
 .ohidden {
 	position: relative;
 	overflow: hidden !important;
@@ -1041,9 +1043,8 @@ html body header .mobile-show {
 	padding: 0 15px;
 	color: #eeeeee;
 	font-weight: bold;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.5px;
 	font-family: 'lato', sans-serif;
 	-webkit-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	-o-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
@@ -1057,9 +1058,8 @@ html body header .mobile-show {
 	padding: 0 15px;
 	color: #444;
 	font-weight: bold;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.5px;
 	font-family: 'lato', sans-serif;
 	-webkit-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	-o-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
@@ -3167,7 +3167,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	border-bottom: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; line-height: 1.25; }
 
 #page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
 
@@ -9295,7 +9295,7 @@ body:not(.device-touch) .clients-grid li a {
 .testi-meta span {
 	display: block;
 	font-weight: normal;
-	color: #999;
+	color: #fff;
 	font-size: 12px;
 	text-transform: none;
 	padding-left: 10px;
