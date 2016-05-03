@@ -169,6 +169,34 @@ small { font-family: 'lato', sans-serif; }
 	list-style-type: none;
 }
 
+.btn-play {
+  display: inline-block;
+  border: 1px solid #fff;
+  margin-top: 32px;
+  line-height: 48px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-play i {
+    display: block;
+    font-size: 14px;
+    line-height: 48px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+  .btn-play:hover {
+    background: #009A44;
+    color: #fff;
+    cursor: pointer;
+    border-color: #fff;
+  }
+
 #wrapper {
 	position: relative;
 	float: none;

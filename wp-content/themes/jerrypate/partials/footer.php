@@ -26,7 +26,7 @@
                                 <i class="icon-facebook"></i>
                             </a>
 
-                        <a href="#" target="_blank" class="social-icon si-small si-rounded nobottommargin si-twitter">
+                        <a href="https://twitter.com/jerrypatedesign" target="_blank" class="social-icon si-small si-rounded nobottommargin si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
                             </a>
