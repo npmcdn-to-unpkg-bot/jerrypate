@@ -532,7 +532,7 @@ body.stretched .container-fullwidth {
 }
 
 .fslider .slide > a > img {
-	margin-top: -400px;
+	margin-top: 0px;
 }
 
 

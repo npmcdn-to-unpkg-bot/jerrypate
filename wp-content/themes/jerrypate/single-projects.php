@@ -22,79 +22,42 @@ if (have_posts()): while (have_posts()) : the_post();
 <!-- Page Title
         ============================================= -->
         <section id="page-title" class="page-title-center">
-
             <div class="container clearfix">
                 <h1><?php echo get_the_title(); ?></h1>
             </div>
-
         </section><!-- #page-title end -->
 
-        <!-- Portfolio Single Gallery
-        ============================================= -->
-        <section id="slider" class="slider-parallax swiper_wrapper clearfix" style="height: 450px;">
 
-            <div class="swiper-container swiper-parent">
-                <div class="swiper-wrapper">
+<section id="content">
 
-                    <?php 
+            <div class="content-wrap">
 
-                    $images = get_field('gallery');
+                <div class="container clearfix">
 
-                    if( $images ): ?>
-                            <?php foreach( $images as $image ): ?>
-                                         <div class="swiper-slide" style="background-image: url('<?php echo $image['sizes']['large']; ?>')"></div>
-                            <?php endforeach; ?>
-                    <?php endif; ?>                    
-                </div>
-                <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
-                <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+                    <!-- Portfolio Single Gallery
+                    ============================================= -->
+                    <div class="col_full portfolio-single-image" style="margin-bottom:0px;">
+                        <div class="fslider" data-arrows="true" data-animation="slide">
+                            <div class="flexslider nomarginbottom">
+                                <div class="slider-wrap">
+                                    <?php 
+                            $images = get_field('gallery');
+
+                            if( $images ): ?>
+                                    <?php foreach( $images as $image ): ?>
+                                                 <div class="slide"><a href="#"><img src="<?php echo $image['sizes']['large']; ?>" alt=""></a></div>
+                                    <?php endforeach; ?>
+                            <?php endif; ?>         
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .portfolio-single-image end -->
+
+                </div><!-- .portfolio-carousel end -->
+
             </div>
 
-            <script>
-                jQuery(document).ready(function($){
-
-                var spv = 1; 
-
-                if ($(window).width()<800) spv=1; 
-
-                    var swiperSlider = new Swiper('.swiper-parent',{
-                        paginationClickable: false,
-                        autoplay: 2500,
-                        slidesPerView: spv,
-                        onSlideChangeEnd: function(swiper){
-                            
-                            $(window).resize(function(){ 
-                                if ($(window).width()<800) {swiperSlider.params.slidesPerView = 1;} 
-                                    else { swiperSlider.params.slidesPerView = 1; } 
-                                });
-                            $('#slider .swiper-slide').each(function(){
-                                if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
-                            });
-                            $('#slider .swiper-slide:not(".swiper-slide-active")').each(function(){
-                                if($(this).find('video').length > 0) {
-                                    if($(this).find('video').get(0).currentTime != 0 ) $(this).find('video').get(0).currentTime = 0;
-                                }
-                            });
-
-                            if( $('#slider .swiper-slide.swiper-slide-active').find('video').length > 0 ) { $('#slider .swiper-slide.swiper-slide-active').find('video').get(0).play(); }
-
-                        }
-
-                    });
-
-                    $('#slider-arrow-left').on('click', function(e){
-                        e.preventDefault();
-                        swiperSlider.swipePrev();
-                    });
-
-                    $('#slider-arrow-right').on('click', function(e){
-                        e.preventDefault();
-                        swiperSlider.swipeNext();
-                    });
-                });
-            </script>
-
-        </section><!-- .portfolio-single-image end -->
+        </section><!-- #content end -->
 <!-- Content============================================= -->
 
 
@@ -150,7 +113,14 @@ endif;
 
         </section><!-- #content end -->
 
+<!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
 
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/functions.js"></script>
 
 
 
