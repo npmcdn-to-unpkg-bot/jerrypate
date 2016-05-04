@@ -10,7 +10,7 @@ include('partials/header-pages.php'); ?>
         ============================================= -->
         <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php echo bloginfo('template_url'); ?>/images/firm.jpg'); background-size: cover; background-position: center 100px;" data-stellar-background-ratio="0.4">
 
-            <div style="background: #000; opacity: .4; width: 100%; height: 100%; top: 0px; left: 0px; right: 0px; bottom: 0px; position:absolute; z-index: 0;"></div>
+            <div style="background: #000; opacity: .3; width: 100%; height: 100%; top: 0px; left: 0px; right: 0px; bottom: 0px; position:absolute; z-index: 0;"></div>
 
  <div class="container clearfix" style="position: relative; z-index: 2;">
                 <h1 class="lowercase" data-animate="fadeInUp" data-delay="400">Creating beauty on the outside,</h1>
@@ -173,13 +173,15 @@ include('partials/header-pages.php'); ?>
                          <!-- Content
         ============================================= -->
 
-<section id="page-title">
-    <div class="container clearfix">
-        <h1>Our Team</h1>
-        <span>Our employees.....etc.</span>
-    </div>
+<<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo bloginfo('template_url'); ?>/images/contact2.jpg'); background-position: center bottom; padding: 100px 0;" data-stellar-background-ratio="0.3">
+<div style="background: #000; opacity: .2; width: 100%; height: 100%; top: 0px; left: 0px; right: 0px; bottom: 0px; position:absolute; z-index: 0;"></div>
 
-</section><!-- #page-title end -->
+            <div class="container clearfix">
+                <h1>Our Team</h1>
+                <span>Building valued relationships through integrity and professionalism. </span>
+            </div>
+
+        </section><!-- #page-title end -->
 
 
  <section id="content">

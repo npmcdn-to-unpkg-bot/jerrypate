@@ -45,7 +45,7 @@ if (have_posts()): while (have_posts()) : the_post();
 
                             if( $images ): ?>
                                     <?php foreach( $images as $image ): ?>
-                                                 <div class="slide"><a href="#"><img src="<?php echo $image['sizes']['large']; ?>" alt=""></a></div>
+                                                 <div class="slide"><img src="<?php echo $image['sizes']['large']; ?>" alt=""></div>
                                     <?php endforeach; ?>
                             <?php endif; ?>         
                                 </div>

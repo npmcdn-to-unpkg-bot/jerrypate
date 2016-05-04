@@ -21,7 +21,7 @@
                     </div>
                         <div class="fright clearfix">
 
-                            <a href="https://www.facebook.com/Jerry-Pate-Company-326740044202903/" target="_blank" class="social-icon si-small si-rounded nobottommargin si-facebook">
+                            <a href="https://www.facebook.com/jerrypatepatedesign" target="_blank" class="social-icon si-small si-rounded nobottommargin si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
