@@ -4579,6 +4579,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 	font-weight: 600;
 	color: #F5F5F5 !important;
 	line-height: 1;
+	padding: 0px 10px 0px 10px;
 }
 
 .portfolio-overlay .portfolio-desc h3 a { color: #F5F5F5 !important; }
