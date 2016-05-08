@@ -43,7 +43,7 @@ include('partials/header-pages.php'); ?>
 
 					<div class="col-md-6">
 					<div class="responsive-center">
-						<div class="col_half">
+						<div class="col_half nobottommargin">
 							<abbr title="Phone Number"><strong>Phone: </strong><br></abbr><a href="tel:+18007007001"> (800) 700-7001</a> <br> <a href="tel:+18504794653"> (850) 479-4653</a><br>
 						</div><!-- Contact Info End -->
 						<div class="col_half col_last">
