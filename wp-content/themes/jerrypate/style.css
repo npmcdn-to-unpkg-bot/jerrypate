@@ -400,6 +400,10 @@ span.middot {
 	left: 0;
 }
 
+.link {
+	color: rgba(255,255,255,0.25);
+}
+
 .magnific-max-width .mfp-content { max-width: 800px; }
 
 
@@ -9410,16 +9414,16 @@ body:not(.device-touch) .clients-grid li a {
 }
 
 .testimonial .flex-control-nav li {
-	margin: 0 2px;
+	margin: 0 5px;
 	width: 6px;
 	height: 6px;
 }
 
 .testimonial .flex-control-nav li a {
-	width: 6px !important;
-	height: 6px !important;
+	width: 8px !important;
+	height: 8px !important;
 	border: none;
-	background-color: #009A44;
+	background-color: #fff;
 	opacity: 0.5;
 }
 
