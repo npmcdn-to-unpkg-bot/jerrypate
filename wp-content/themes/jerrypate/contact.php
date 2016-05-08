@@ -23,6 +23,8 @@ include('partials/header-pages.php'); ?>
         <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
         	<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
+
+        		<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 					
 			<?php endif; ?>
 
@@ -36,13 +38,11 @@ include('partials/header-pages.php'); ?>
 					============================================= -->
 					<div class="col-md-6 bottommargin">
 
-						<img class="image_fade" src="<?php the_post_thumbnail(); // Fullsize image for the single post ?>">
-
+						<img class="image_fade" src="<?php echo $url ?>">
 					</div><!-- Google Map End -->
 
 					<div class="col-md-6">
 					<div class="responsive-center">
-					<h3 class="font-body t400 ls1">Contact</h3>
 						<div class="col_half">
 							<abbr title="Phone Number"><strong>Phone: </strong><br></abbr><a href="tel:+18007007001"> (800) 700-7001</a> <br> <a href="tel:+18504794653"> (850) 479-4653</a><br>
 						</div><!-- Contact Info End -->
@@ -50,7 +50,6 @@ include('partials/header-pages.php'); ?>
 							<abbr title="Email Address"><strong>Email: </strong><br></abbr><a href="mailto:jdp@jerrypate.com"> jdp@jerrypate.com</a>
 						</div>
 						<div class="clear"></div>
-					<h3 class="font-body t400 ls1">Locations</h3>
 
 						<!-- Contact Info
 						============================================= -->
