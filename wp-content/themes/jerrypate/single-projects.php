@@ -123,5 +123,13 @@ endif;
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/functions.js"></script>
 
 
+    <script>
+    jQuery(document).ready(function($){
+        $('#primary-menu-trigger').click(function(){
+            $('#menu-primary').toggleClass('show');
+        })
+    });
+    </script>
+
 
         <?php include('partials/footer.php'); ?>

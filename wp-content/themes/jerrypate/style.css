@@ -961,7 +961,7 @@ body.stretched #header.full-header .container {
 #logo img {
 	display: block;
 	max-width: 100%;
-	width: 175px;
+	width: 160px;
 	text-align: left;
 }
 html body header .mobile-show {
@@ -4504,18 +4504,12 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
 
 .portfolio-overlay a {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	background-color: #F5F5F5;
-	width: 40px !important;
-	height: 40px !important;
-	margin: -28px 0 0 -28px;
-	font-size: 18px;
-	line-height: 40px;
-	text-align: center;
-	color: #444;
-	border-radius: 50%;
-	-webkit-backface-visibility: hidden;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
@@ -4543,8 +4537,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 .iportfolio:hover a.center-icon { opacity: 1; }
 
 .portfolio-overlay a:hover {
-	color: #009A44;
-	background-color: #EEE;
+	// color: #009A44;
+	// background-color: #EEE;
 }
 
 .portfolio-item:hover .portfolio-overlay a.left-icon,
@@ -11452,6 +11446,10 @@ button.toast-close-button {
 	position: relative;
 	background-color: #EEE;
 	border-top: 5px solid rgba(0,0,0,0.2);
+}
+
+footer#footer.dark {
+	margin-top: 0px !important;
 }
 
 #footer .footer-widgets-wrap {

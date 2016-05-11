@@ -58,18 +58,16 @@ include('partials/header-pages.php'); ?>
                 
 
                     <article class="portfolio-item pf-<?php echo $cat[0]->slug ?>">
-                        <a href="<?php echo get_the_permalink(); ?>"></a>
-                        <div class="portfolio-image">
-                            <a href="<?php echo get_the_permalink(); ?>">
-                                <img src="<?php echo $url ?>">
-                            </a>
-                             <div class="portfolio-overlay">
-                                 <a href="<?php echo get_the_permalink(); ?>" class="left-icon"><i class="icon-line-plus"></i></a>
+                        <a href="<?php echo get_the_permalink(); ?>">
+                            <div class="portfolio-image">
+                                <a href="<?php echo get_the_permalink(); ?>">
+                                    <img src="<?php echo $url ?>">
+                                </a>
                             </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
-                        </div>
+                            <div class="portfolio-desc">
+                                <h3><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
+                            </div>
+                        </a>
                     </article>
 
                         <?php }

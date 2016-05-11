@@ -55,17 +55,18 @@ include('partials/header-pages.php'); ?>
                 
 
                     <article class="portfolio-item pf-<?php echo $cat[0]->slug ?>">
-                        <a href="<?php echo get_the_permalink(); ?>"></a>
                         <div class="portfolio-image">
                             <a href="<?php echo get_the_permalink(); ?>">
                                 <img src="<?php echo $url ?>">
                             </a>
                         </div>
+                        <a href="<?php echo get_the_permalink(); ?>">
                         <div class="portfolio-overlay">
-                        <div class="portfolio-desc">
-                            <h3><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
+                            <div class="portfolio-desc">
+                                <h3><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
+                            </div>
                         </div>
-                        </div>
+                        </a>
                     </article>
 
                         <?php }

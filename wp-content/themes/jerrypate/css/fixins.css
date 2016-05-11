@@ -5,7 +5,7 @@
   }
   html body .full-header #header-wrap #logo img {
     height: auto !important;
-    width: 200px !important;
+    width: 150px !important;
     display: inline-block;
   }
   html body .full-header.sticky-header #header-wrap #logo {
