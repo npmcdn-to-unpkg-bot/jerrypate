@@ -10,7 +10,7 @@
     <!-- Stylesheets
     ============================================= -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Merriweather:700italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/dark.css" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-icons.css" type="text/css" />
@@ -28,6 +28,9 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/canvas.slider.fade.js"></script>
+
+
+    
 
     <!-- Document Title
     ============================================= -->

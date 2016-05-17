@@ -12,7 +12,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
     <div class="container clearfix" style="position: relative; z-index: 2;">
         <?php the_content() ?>
         <div class="btn-play" data-animate="fadeInUp" data-delay="1000">
-            <i class="icon-play"></i>
+            <i onclick="activateVideo()" class="icon-play"></i>
          </div>
     </div>
 </section><!-- #page-title end -->
@@ -20,6 +20,28 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 <?php endwhile; ?>
 <?php else: ?>
 <?php endif; ?>
+
+<div class="jp-modal hide">
+    <div>
+        <i class="icon-line-circle-cross" onclick="closeVideo()"></i>
+        <iframe src="https://player.vimeo.com/video/22329918" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+</div> 
+
+<script>
+jQuery(document).ready(function($) {
+
+});
+
+function activateVideo() {
+    $('.jp-modal').removeClass('hide');
+}
+
+function closeVideo() {
+    $('.jp-modal').addClass('hide');
+}
+</script>
+
 
     <!-- Footer Scripts
     ============================================= -->

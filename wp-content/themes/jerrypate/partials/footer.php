@@ -11,7 +11,7 @@
                     <div class="col_half">
                         <img src="<?php bloginfo('template_url'); ?>/images/jerry_gray.svg" alt="" class="footer-logo">
                             <div class="notopmargin">
-                            <a href="mailto:jdp@jerrypate.com">jdp@jerrypate.com</a> <span class="middot">&middot;</span> 
+                            <a href="mailto:jpd@jerrypate.com">jpd@jerrypate.com</a> <span class="middot">&middot;</span> 
                             <a href="tel:+18504794653"> (850) 479-4653</a>
                             </div>
                             <div class="clear"></div>

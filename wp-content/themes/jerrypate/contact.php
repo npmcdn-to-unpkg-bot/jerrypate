@@ -47,7 +47,7 @@ include('partials/header-pages.php'); ?>
 							<abbr title="Phone Number"><strong>Phone: </strong><br></abbr><a href="tel:+18007007001"> (800) 700-7001</a> <br> <a href="tel:+18504794653"> (850) 479-4653</a><br>
 						</div><!-- Contact Info End -->
 						<div class="col_half col_last">
-							<abbr title="Email Address"><strong>Email: </strong><br></abbr><a href="mailto:jdp@jerrypate.com"> jdp@jerrypate.com</a>
+							<abbr title="Email Address"><strong>Email: </strong><br></abbr><a href="mailto:jpd@jerrypate.com"> jpd@jerrypate.com</a>
 						</div>
 						<div class="clear"></div>
 
