@@ -24,7 +24,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 <div class="jp-modal hide">
     <div>
         <i class="icon-line-circle-cross" onclick="closeVideo()"></i>
-        <iframe src="https://player.vimeo.com/video/166960903" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/166960903?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
 </div> 
 
