@@ -19,6 +19,10 @@
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:title" content="Jerry Pate Design" />
+    <meta property="og:url" content="http://jerrypatedesign.com" />
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/wp-content/uploads/2015/05/homepage2.jpg" />
+    <meta property="og:site_name" content="Creating Beautiful Landscapes | Jerry Pate Design"/>
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->

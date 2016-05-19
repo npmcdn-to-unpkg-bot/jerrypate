@@ -7,7 +7,7 @@ include('partials/header-pages.php'); ?>
 		<section>
 
 			<!-- article -->
-			<article id="post-404">
+			<article id="post-404" style="padding: 100px 0px;">
 				<div class="container clearfix text-center">
 					<div class="content-wrap">
 						<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
