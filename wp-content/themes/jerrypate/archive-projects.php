@@ -221,10 +221,12 @@ include('partials/header-pages.php'); ?>
                         });
                     }
 
-                    $container.isotope('layout');
+                    
 
                     $('#portfolio').removeClass('loading');
                 });
+
+                $container.isotope('layout');
             });
             
 
@@ -286,10 +288,10 @@ include('partials/header-pages.php'); ?>
                             });
                         }
 
-                        $container.isotope('layout');
-
                         $('#portfolio').removeClass('loading');
                     });
+
+                    $container.isotope('layout');
 
                     $('#loadMore').fadeIn();
                 // $container.isotope('layout')
