@@ -163,7 +163,7 @@ include('partials/header-pages.php'); ?>
         }
     </style>
     <input type="hidden" id="paged" value="1">
-    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script type='text/javascript'>
     var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
 
